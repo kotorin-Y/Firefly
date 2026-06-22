@@ -5,7 +5,7 @@ const SITE_LANG = "zh_CN";
 export const siteConfig: SiteConfig = {
 	title: "Kotorin's Digital Garden",
 	subtitle: "游戏运营 × AI 工具 × Web 制作",
-	site_url: "https://kotorin-firefly.workers.dev",
+	site_url: "https://kotorin-firefly.kotorin-y.workers.dev",
 	description:
 		"Kotorin 的个人作品集与数字花园，记录游戏运营、AI Agent、Web 宣发页面和个人效率工具的设计与实现。",
 	keywords: [
