@@ -1,29 +1,24 @@
-# 关于我 / About Me
+# 关于我
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+你好，我是 **kotorin**。
 
-## 🛠️ 关于本站
+我关注游戏运营、活动页面交付、AI Agent 与个人效率工具。比起只写一份需求文档，我更愿意把想法继续推进为能够打开、操作、验证和复盘的真实产品。
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+## 我在做什么
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+- 将游戏宣发需求拆成信息架构、页面原型、素材清单和验收标准。
+- 使用前端工具完成活动页面搭建，处理响应式、多语言、交互动效与发布质量。
+- 设计本地优先的 AI 工作流，让运营任务更可复用、更容易追踪。
+- 把开发过程整理成可交接的文档、源码包和复盘记录。
 
+## 这个网站
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+本站既是个人博客，也是长期维护的作品档案。每个项目尽量包含背景、目标、职责、关键决策、交付物和可访问入口，而不是只展示一张效果图。
 
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
+- [查看作品集](/posts/portfolio/)
+- [访问 GitHub](https://github.com/kotorin-Y)
+- [订阅 RSS](/rss/)
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+## 技术说明
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
-
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
-
-::github{repo="CuteLeaf/Firefly"}
-
-::github{repo="saicaca/fuwari"}
-
----
-
-*感谢你的来访！希望在这里能找到对你有用的内容！*
-
+本站按照教程流程，基于 [Astro](https://astro.build/) 与开源主题 [Firefly](https://github.com/CuteLeaf/Firefly) 搭建，并为 Cloudflare Workers 部署做好配置。主题原作者与上游项目的开源许可和署名均予以保留。
