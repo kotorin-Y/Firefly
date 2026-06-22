@@ -2,13 +2,6 @@
 
 基于 [Firefly](https://github.com/CuteLeaf/Firefly) 与 [Astro](https://astro.build/) 的个人博客和作品集。
 
-## 已包含内容
-
-- 游戏宣发网页《Stellar Blade: BLOOD RAIN》项目说明与源码下载
-- GitHub 项目 OpsDeputy、Some-tools 展示
-- 作品集、归档、分类、标签、搜索、RSS、主题切换和响应式布局
-- Cloudflare Workers 部署配置
-- 集中式个人配置说明
 
 ## 本地运行
 
