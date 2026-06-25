@@ -1,0 +1,8 @@
+---
+import type { PortfolioProject } from "@/types/portfolio";
+const { project } = Astro.props as { project: PortfolioProject };
+---
+<section class="project-overview" style={`--project-accent:${project.accent}`}>
+	<div><p class="portfolio-kicker">CASE STUDY</p><h1>{project.title}</h1><p>{project.summary}</p><div class="project-tags">{project.role.map((role) => <span>{role}</span>)}</div></div>
+	<img src={project.cover} alt="" loading="eager" />
+</section>

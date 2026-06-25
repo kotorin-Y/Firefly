@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-06-25T15:13:51.210Z",
+  "assets": [
+    {
+      "href": "downloads/portfolio/ops-deputy/ops-deputy-v1-x64.exe",
+      "bytes": 11566229,
+      "sha256": "67206fba728d1921fd1c6932684f5a05ff37672d1c79a48a0330d1c46a402019"
+    },
+    {
+      "href": "downloads/portfolio/ops-deputy/ops-deputy-prd-zh-cn.pdf",
+      "bytes": 137357,
+      "sha256": "bdb6b16dc0cc9865cce1a17cd9253f3d2c974e118a298e0596dfe28a1d9d9503"
+    },
+    {
+      "href": "downloads/portfolio/ops-deputy/ops-deputy-interaction-assets-v1.zip",
+      "bytes": 525228,
+      "sha256": "5c7bb8b019bce4503beaa036401e2fd141f1ced45e0d5033ef8a708cf4dba65e"
+    },
+    {
+      "href": "downloads/portfolio/ops-deputy/ops-deputy-source-v1.zip",
+      "bytes": 536295,
+      "sha256": "b44ab3e6ab9613c848956797282c9732978beb6e02649df617b95e6d330bdfe1"
+    },
+    {
+      "href": "downloads/portfolio/windows-motion-studio/windows-motion-studio-v1-x64.exe",
+      "bytes": 11592476,
+      "sha256": "82dcdf6bcdf0ffa89050a93375b88a92865f5d7acdf5c6be64a9298c09e2e3b8"
+    },
+    {
+      "href": "downloads/portfolio/windows-motion-studio/windows-motion-studio-prd-zh-cn.pdf",
+      "bytes": 126439,
+      "sha256": "cb8fcb5766a11ccd549b3f12670d8667aa2774a56c393fedf096331d2f670506"
+    },
+    {
+      "href": "downloads/portfolio/windows-motion-studio/windows-motion-studio-interaction-assets-v1.zip",
+      "bytes": 18908,
+      "sha256": "8824076e8b2a6dbff032f9f42044e041aaf69ce62ec6871878326f79e88d7226"
+    },
+    {
+      "href": "downloads/portfolio/windows-motion-studio/windows-motion-studio-source-v1.zip",
+      "bytes": 123089,
+      "sha256": "c42001bef733945e54a0a88851d064f315a6eb263340e597e9ad8f12fa4218ee"
+    },
+    {
+      "href": "downloads/portfolio/fancy/fancy-setup-v0.3.0-x64.exe",
+      "bytes": 96231470,
+      "sha256": "f89a8711726dff73181bc2f643c10e0ae9a0e97d3c81c74ed4e881f1f4583898"
+    },
+    {
+      "href": "downloads/portfolio/fancy/fancy-portable-v0.3.0-x64.exe",
+      "bytes": 95993083,
+      "sha256": "bc8cb25c4c8646ae6af208ecdba5ed9cf067b63b7b489f752221830771069dbf"
+    },
+    {
+      "href": "downloads/portfolio/fancy/fancy-prd-zh-cn.pdf",
+      "bytes": 664438,
+      "sha256": "581c98fbb8e205d6a0e604c69d341fc031d03b8aae6d24a6e436aecda37155be"
+    },
+    {
+      "href": "downloads/portfolio/fancy/fancy-interaction-assets-v0.3.0.zip",
+      "bytes": 788207,
+      "sha256": "deea21d5098ea3b482b84a263ca09688c3773743f90794bcccf027845746fa8d"
+    },
+    {
+      "href": "downloads/portfolio/fancy/fancy-source-v0.3.0.zip",
+      "bytes": 1327274,
+      "sha256": "0ba9ddcf7c86505f3cb1f2ce039a20736f986e8d5d6e68ee0417d950eb983f44"
+    },
+    {
+      "href": "downloads/portfolio/stellar-blade-blood-rain/stellar-blade-blood-rain-community-operations-plan-zh-cn.pdf",
+      "bytes": 183582,
+      "sha256": "a60d69cd95274c0265d65a4e8c01d954b2703fda93e71ec0147c20ba7929738c"
+    },
+    {
+      "href": "downloads/portfolio/stellar-blade-blood-rain/stellar-blade-blood-rain-interaction-assets-v1.zip",
+      "bytes": 793951,
+      "sha256": "cf41b2b0fedb5e1f28ffd19b825014593eb910806584df4db204a167fc66650e"
+    },
+    {
+      "href": "downloads/portfolio/stellar-blade-blood-rain/stellar-blade-blood-rain-source-v1.zip",
+      "bytes": 1096990,
+      "sha256": "056f84f3bd46337f7216c3f0e6354cfe92b2ff92eb23f4fa211e2b118aa9b1a6"
+    }
+  ]
+}

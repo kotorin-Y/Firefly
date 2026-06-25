@@ -3,7 +3,7 @@ import type { ProfileConfig } from "../types/profileConfig";
 export const profileConfig: ProfileConfig = {
 	avatar: "https://avatars.githubusercontent.com/u/279659525?v=4",
 	name: "kotorin",
-	bio: "把运营想法做成可体验、可验证、可交付的数字产品。",
+	bio: "游戏与互联网运营 / 产品岗位求职中｜把用户洞察做成可验证交付。",
 	links: [
 		{
 			name: "GitHub",
@@ -15,6 +15,12 @@ export const profileConfig: ProfileConfig = {
 			name: "RSS",
 			icon: "fa7-solid:rss",
 			url: "/rss/",
+			showName: false,
+		},
+		{
+			name: "Email",
+			icon: "material-symbols:mail-outline",
+			url: "mailto:531188217@qq.com",
 			showName: false,
 		},
 	],

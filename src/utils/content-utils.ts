@@ -36,6 +36,10 @@ export async function getSortedPosts() {
 
 	return sorted;
 }
+export async function getHomePosts() {
+	const sorted = await getSortedPosts();
+	return sorted.filter((post) => !post.data.hiddenFromHome);
+}
 export type PostForList = {
 	id: string;
 	data: CollectionEntry<"posts">["data"];

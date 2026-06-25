@@ -3,14 +3,17 @@ import type { SiteConfig } from "@/types/siteConfig";
 const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
-	title: "Kotorin's Digital Garden",
-	subtitle: "游戏运营 × AI 工具 × Web 制作",
+	title: "kotorin｜运营与产品作品集",
+	subtitle: "游戏与互联网运营 × 产品设计 × AI 闭环工程",
 	site_url: "https://kotorin-firefly.kotorin-y.workers.dev",
 	description:
-		"Kotorin 的个人作品集与数字花园，记录游戏运营、AI Agent、Web 宣发页面和个人效率工具的设计与实现。",
+		"kotorin 的运营与产品作品集，展示用户洞察、活动与内容运营、商业化增长、产品设计、AI 闭环工程和真实交付。",
 	keywords: [
 		"kotorin",
 		"游戏运营",
+		"产品运营",
+		"产品经理",
+		"互联网运营",
 		"AI Agent",
 		"Web 开发",
 		"作品集",
@@ -34,7 +37,7 @@ export const siteConfig: SiteConfig = {
 			value: "material-symbols:deployed-code-outline",
 			alt: "Kotorin",
 		},
-		title: "Kotorin",
+			title: "kotorin",
 		widthFull: false,
 		menuAlign: "center",
 		followTheme: true,

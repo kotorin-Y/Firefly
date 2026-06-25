@@ -1,0 +1,9 @@
+<section class="portfolio-journey">
+	<p class="portfolio-kicker">MY WORKFLOW</p>
+	<h2>从问题到交付的完整路径</h2>
+	<div class="portfolio-journey__grid">
+		{["用户洞察", "运营策略", "产品设计", "工程落地", "验证复盘"].map((item, index) => (
+			<div class="portfolio-journey__step"><span>{String(index + 1).padStart(2, "0")}</span><strong>{item}</strong></div>
+		))}
+	</div>
+</section>

@@ -1,0 +1,4 @@
+---
+const { images, id } = Astro.props as { images: Array<{ src: string; alt: string }>; id: string };
+---
+<div class="project-gallery">{images.map((image) => <a href={image.src} data-fancybox={`project-${id}`} data-caption={image.alt}><img src={image.src} alt={image.alt} loading="lazy" /></a>)}</div>
