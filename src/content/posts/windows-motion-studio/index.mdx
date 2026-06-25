@@ -1,0 +1,37 @@
+---
+title: Windows Motion Studio｜桌面动态效果工具
+published: 2026-06-23
+updated: 2026-06-25
+hiddenFromHome: true
+description: 用实时预览、配置档案和适配器降低 Windows 动效调整门槛。
+tags: [工具产品, Windows, Python, 交互设计]
+category: 个人作品集
+draft: false
+---
+import ProjectOverview from "@/components/portfolio/ProjectOverview.astro";
+import ProjectMetrics from "@/components/portfolio/ProjectMetrics.astro";
+import ProjectGallery from "@/components/portfolio/ProjectGallery.astro";
+import DownloadCenter from "@/components/portfolio/DownloadCenter.astro";
+import { portfolioProjects } from "@/data/portfolio-projects";
+export const project = portfolioProjects["windows-motion-studio"];
+
+<ProjectOverview project={project} />
+<ProjectMetrics metrics={project.metrics} />
+
+## 产品背景
+
+Windows 的视觉与动态参数分散，普通用户难以理解修改风险，也缺少“先预览、再应用、可恢复”的安全路径。该项目以工具产品视角重组信息结构，让设置更可理解。
+
+## 产品设计
+
+- 扫描系统环境，明确支持能力与风险。
+- 用配置档案管理不同场景，并支持导入导出。
+- 参数调整提供实时反馈，高风险动作二次确认。
+- 通过适配器隔离不同系统能力，便于继续扩展。
+
+## 能力证明
+
+项目展示了我将复杂配置转化为用户流程、状态反馈和工程边界的能力。这类方法同样适用于企业工具、效率产品、后台系统和互联网平台的配置中心。
+
+<ProjectGallery images={project.gallery} id={project.id} />
+<DownloadCenter downloads={project.downloads} />

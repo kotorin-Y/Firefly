@@ -13,7 +13,7 @@
 - `themeColor.hue`：主题主色，范围 0–360
 - `pages`：友链、打赏、留言、番组、相册页面开关
 
-如果 Cloudflare 实际分配的地址不是 `https://kotorin-firefly.workers.dev`，必须同步修改 `site_url`。
+当前 Cloudflare 地址是 `https://kotorin-firefly.kotorin-y.workers.dev`。如果以后修改 Worker 或账户子域，必须同步修改 `site_url`。
 
 ## 2. 头像与外部链接
 

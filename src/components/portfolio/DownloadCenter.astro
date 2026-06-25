@@ -1,0 +1,8 @@
+---
+import type { PortfolioDownload } from "@/types/portfolio";
+const { downloads } = Astro.props as { downloads: PortfolioDownload[] };
+---
+<section class="download-center">
+	<p class="portfolio-kicker">DELIVERABLES</p><h2>站内下载中心</h2><p>文件均来自真实交付版本，并标注用途、平台与版本。</p>
+	<div class="download-grid">{downloads.map((item) => <a class="download-card" href={item.href} download><span>{item.kind.toUpperCase()}</span><strong>{item.label}</strong><p>{item.description}</p><small>{item.version} · {item.platform} · {item.size}</small></a>)}</div>
+</section>

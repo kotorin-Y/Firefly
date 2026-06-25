@@ -12,7 +12,7 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:home",
 		},
 		{
-			name: "作品",
+			name: "个人作品集",
 			url: "/posts/portfolio/",
 			icon: "material-symbols:work-outline",
 		},

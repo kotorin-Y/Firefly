@@ -1,27 +1,37 @@
 ---
 title: OpsDeputy｜本地优先的运营 AI Agent
 published: 2026-06-20
-updated: 2026-06-22
-description: 用 Electron、TypeScript 与 LLM 工作流把运营任务沉淀为可编排、可追踪、可复用的桌面工作台。
-tags: [AI Agent, Electron, TypeScript, 运营工具]
-category: AI 项目
+updated: 2026-06-25
+hiddenFromHome: true
+description: 将调研、内容、分析与交付任务组织为可检查的 AI 工作流。
+tags: [AI Agent, 产品运营, Electron, 工作流]
+category: 个人作品集
 draft: false
 ---
+import ProjectOverview from "@/components/portfolio/ProjectOverview.astro";
+import ProjectMetrics from "@/components/portfolio/ProjectMetrics.astro";
+import ProjectGallery from "@/components/portfolio/ProjectGallery.astro";
+import DownloadCenter from "@/components/portfolio/DownloadCenter.astro";
+import { portfolioProjects } from "@/data/portfolio-projects";
+export const project = portfolioProjects["ops-deputy"];
 
-## 项目概览
+<ProjectOverview project={project} />
+<ProjectMetrics metrics={project.metrics} />
 
-OpsDeputy 面向需要频繁处理内容、活动、素材和流程任务的运营人员。项目尝试把“一次性的聊天结果”升级为有上下文、有步骤、有检查点的本地工作流。
+## 背景与用户问题
 
-::github{repo="kotorin-Y/OpsDeputy"}
+运营和产品工作经常横跨检索、数据、文案、素材、审核与复盘。通用 AI 能生成结果，却不天然理解业务流程、人工确认点和交付标准。OpsDeputy 因此采用 local-first 思路，把一次性对话升级为有步骤、有状态、有失败恢复的工作台。
 
-## 关注的问题
+## 关键方案
 
-- 运营任务通常横跨需求、素材、文案、配置、审核和复盘，信息容易散落。
-- 通用对话式 AI 能生成内容，但不天然理解团队流程和交付标准。
-- 涉及内部资料时，需要明确本地数据边界和可控的模型接入方式。
+- 使用结构化提示词明确角色、背景、输入、约束、输出和验收规则。
+- 将“需求澄清 → 信息检索 → 来源核验 → 内容生成 → 人工审查 → 结果导出 → 复盘”建模为闭环。
+- 高风险和对外动作保留人工确认，不把 AI 输出直接等同于业务结论。
+- 本地保存任务和配置，明确展示外部模型调用边界。
 
-## 设计方向
+## 适用行业
 
-项目采用 local-first 思路，将任务输入、执行步骤、模型调用和结果整理放在桌面端工作台中。后续计划继续完善模板化工作流、失败重试、人工确认、记录追踪与结果导出。
+除游戏运营外，也可服务内容平台、本地生活、教育、电商、市场和商业化团队中的信息整理、客户跟进、活动策划、数据复盘与 SOP 沉淀。
 
-[打开 GitHub 仓库](https://github.com/kotorin-Y/OpsDeputy)
+<ProjectGallery images={project.gallery} id={project.id} />
+<DownloadCenter downloads={project.downloads} />

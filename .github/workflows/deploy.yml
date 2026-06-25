@@ -36,6 +36,9 @@ jobs:
           
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
+
+      - name: Verify portfolio downloads
+        run: pnpm portfolio:verify
       
       - name: Build site
         run: pnpm run build

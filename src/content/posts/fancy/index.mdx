@@ -1,0 +1,39 @@
+---
+title: Fancy!｜ACGN 综合资讯与共创桌面产品
+published: 2026-06-25
+updated: 2026-06-25
+hiddenFromHome: true
+description: 多来源资讯、AI 搜索、统一阅读、论坛和共创体验的完整产品工程。
+tags: [产品经理, 产品运营, ACGN, Electron, AI 搜索]
+category: 个人作品集
+draft: false
+---
+import ProjectOverview from "@/components/portfolio/ProjectOverview.astro";
+import ProjectMetrics from "@/components/portfolio/ProjectMetrics.astro";
+import ProjectGallery from "@/components/portfolio/ProjectGallery.astro";
+import DownloadCenter from "@/components/portfolio/DownloadCenter.astro";
+import { portfolioProjects } from "@/data/portfolio-projects";
+export const project = portfolioProjects.fancy;
+
+<ProjectOverview project={project} />
+<ProjectMetrics metrics={project.metrics} />
+
+## 产品背景
+
+ACGN 用户每天穿梭于资讯站、游戏平台、社区和海外媒体。信息丰富却分散、重复、难核验，也容易受到剧透和推荐噪声影响。Fancy! 将发现、检索、阅读、讨论和创作组织为一条连续体验。
+
+## 核心设计
+
+- 多来源资讯聚合，并保留来源、作者与发布时间。
+- 严格频道分类，减少动画、漫画、游戏和轻小说内容混淆。
+- 星状 AI 搜索入口，将来源偏好、剧透保护和翻译设置整合进搜索栏。
+- 海外内容整理为简体中文站内阅读，同时保留原文核验入口。
+- Steam 风格论坛、优质共创内容和较保守的 UGC 安全机制。
+- 主题、自定义背景、收藏、历史和远程认证接口。
+
+## 验证
+
+项目通过 41 项自动化测试、类型检查、生产构建、响应式检查和 Windows 打包后冒烟测试。产品方法也可迁移到新闻聚合、内容社区、知识产品与垂直兴趣平台。
+
+<ProjectGallery images={project.gallery} id={project.id} />
+<DownloadCenter downloads={project.downloads} />
