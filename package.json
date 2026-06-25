@@ -17,7 +17,9 @@
     "icons": "node scripts/generate-icons.js",
     "lqips": "node --experimental-strip-types scripts/generate-lqips.ts",
     "portfolio:packages": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-portfolio-packages.ps1",
-    "portfolio:verify": "node scripts/verify-portfolio-assets.mjs"
+    "portfolio:verify": "node scripts/verify-portfolio-assets.mjs",
+    "cloudflare:prepare": "node scripts/prepare-cloudflare-assets.mjs",
+    "deploy:cloudflare": "pnpm run build && pnpm run cloudflare:prepare && wrangler deploy --assets=.cloudflare-dist"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",

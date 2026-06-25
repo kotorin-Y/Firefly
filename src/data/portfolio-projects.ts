@@ -1,6 +1,8 @@
 import type { PortfolioProject, PortfolioProjectId } from "@/types/portfolio";
 
 const exeNote = "Windows 程序未配置商业代码签名时可能触发 SmartScreen。";
+const githubRawBase =
+	"https://raw.githubusercontent.com/kotorin-Y/Firefly/master/public/downloads/portfolio";
 
 export const portfolioProjects: Record<PortfolioProjectId, PortfolioProject> = {
 	"ops-deputy": {
@@ -45,8 +47,8 @@ export const portfolioProjects: Record<PortfolioProjectId, PortfolioProject> = {
 			{ src: "/assets/images/portfolio/fancy/create.png", alt: "Fancy 共创广场" },
 		],
 		downloads: [
-			{ label: "Windows 安装版", href: "/downloads/portfolio/fancy/fancy-setup-v0.3.0-x64.exe", kind: "exe", version: "v0.3.0", platform: "Windows", size: "91.8 MiB", description: `桌面安装包。${exeNote}` },
-			{ label: "Windows 便携版", href: "/downloads/portfolio/fancy/fancy-portable-v0.3.0-x64.exe", kind: "exe", version: "v0.3.0", platform: "Windows", size: "91.6 MiB", description: `免安装版本。${exeNote}` },
+			{ label: "Windows 安装版", href: `${githubRawBase}/fancy/fancy-setup-v0.3.0-x64.exe`, kind: "exe", version: "v0.3.0", platform: "Windows", size: "91.8 MiB", description: `桌面安装包，由 GitHub 提供大文件下载。${exeNote}` },
+			{ label: "Windows 便携版", href: `${githubRawBase}/fancy/fancy-portable-v0.3.0-x64.exe`, kind: "exe", version: "v0.3.0", platform: "Windows", size: "91.6 MiB", description: `免安装版本，由 GitHub 提供大文件下载。${exeNote}` },
 			{ label: "产品需求文档", href: "/downloads/portfolio/fancy/fancy-prd-zh-cn.pdf", kind: "pdf", version: "v1.2", platform: "通用", size: "0.7 MiB", description: "完整中文 PRD。" },
 			{ label: "交互设计素材", href: "/downloads/portfolio/fancy/fancy-interaction-assets-v0.3.0.zip", kind: "zip", version: "v0.3.0", platform: "通用", size: "ZIP", description: "原型、架构、Logo 与界面素材。" },
 			{ label: "源码包", href: "/downloads/portfolio/fancy/fancy-source-v0.3.0.zip", kind: "zip", version: "v0.3.0", platform: "通用", size: "ZIP", description: "公开版本源码。" },
