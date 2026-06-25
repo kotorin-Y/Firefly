@@ -1,7 +1,7 @@
 ---
 title: "Stellar Blade: BLOOD RAIN｜全球宣发概念网页【非官方，仅个人非商业目标创作】"
 published: 2026-06-21
-updated: 2026-06-25
+updated: 2026-06-26
 hiddenFromHome: true
 description: 非官方个人概念项目：七语言游戏宣发网页、用户与社区运营方案及完整交付物。
 image: ./cover.jpg
@@ -25,7 +25,22 @@ export const project = portfolioProjects["stellar-blade-blood-rain"];
 
 ## 项目定位
 
-项目模拟海外动作游戏中“活动页面搭建 + 内容运营 + 社区方案”的真实交付。主体不是单纯前端 Demo，而是从宣发目标、内容节奏、素材管理、多语言配置到上线验收的完整过程。
+这个项目模拟海外动作游戏的活动页面交付。我先梳理宣发目标和内容节奏，再处理素材、多语言配置与上线验收。前端页面是结果，运营判断才是它的骨架。
+
+## 页面实际运行效果
+
+下面的图片来自本地构建后的真实页面，不是概念效果图。首屏负责建立角色和氛围认知，媒体区则把宣传关键帧整理成方便浏览的内容模块。
+
+<ProjectGallery images={project.gallery} id={project.id} />
+
+### 语言切换动效
+
+切换语言时，页面会先播放一段很短的任务载入动画，再更新文案。动效时间控制在半秒左右，目的是给用户明确反馈，不让动画挡住阅读。
+
+<figure class="stellar-motion-demo">
+	<img src="/assets/images/portfolio/stellar-blade-blood-rain/language-transition.gif" alt="BLOOD RAIN 宣发网页从简体中文切换至英文的动效演示" loading="lazy" />
+	<figcaption>实际录制：简体中文切换至英文。页面共保留七种语言入口。</figcaption>
+</figure>
 
 ## 核心方案
 
@@ -38,8 +53,6 @@ export const project = portfolioProjects["stellar-blade-blood-rain"];
 ## 可迁移能力
 
 项目体现的用户分层、内容矩阵、活动节奏、素材协同和质量验收，也适用于品牌活动、电商专题、内容平台和其他互联网增长项目。
-
-<ProjectGallery images={project.gallery} id={project.id} />
 
 ## 【非官方，仅个人非商业目标创作】
 

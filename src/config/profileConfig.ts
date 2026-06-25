@@ -3,7 +3,7 @@ import type { ProfileConfig } from "../types/profileConfig";
 export const profileConfig: ProfileConfig = {
 	avatar: "https://avatars.githubusercontent.com/u/279659525?v=4",
 	name: "kotorin",
-	bio: "游戏与互联网运营 / 产品岗位求职中｜把用户洞察做成可验证交付。",
+	bio: "AI Builder（成长中） / ACGN / 心理学与行为科学 / 互联网运营",
 	links: [
 		{
 			name: "GitHub",

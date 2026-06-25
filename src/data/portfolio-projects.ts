@@ -60,6 +60,8 @@ export const portfolioProjects: Record<PortfolioProjectId, PortfolioProject> = {
 		cover: "/assets/images/portfolio/stellar-blade-blood-rain/hero.jpg",
 		metrics: [{ value: "7", label: "语言入口" }, { value: "多端", label: "响应式适配" }, { value: "完整", label: "运营验收" }],
 		gallery: [
+			{ src: "/assets/images/portfolio/stellar-blade-blood-rain/site-hero.jpg", alt: "BLOOD RAIN 宣发网页实际运行首屏" },
+			{ src: "/assets/images/portfolio/stellar-blade-blood-rain/site-media-section.jpg", alt: "BLOOD RAIN 宣发网页媒体内容区实际截图" },
 			{ src: "/assets/images/portfolio/stellar-blade-blood-rain/hero.jpg", alt: "BLOOD RAIN 宣发网页首屏" },
 			{ src: "/assets/images/portfolio/stellar-blade-blood-rain/media-1.jpg", alt: "BLOOD RAIN 媒体展示" },
 			{ src: "/assets/images/portfolio/stellar-blade-blood-rain/character.jpg", alt: "BLOOD RAIN 角色展示" },

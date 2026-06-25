@@ -3,11 +3,11 @@ import type { SiteConfig } from "@/types/siteConfig";
 const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
-	title: "kotorin｜运营与产品作品集",
-	subtitle: "游戏与互联网运营 × 产品设计 × AI 闭环工程",
+	title: "こんにちは、kotorinです 👋",
+	subtitle: "ACGN、产品与运营，还有一些认真做出来的 AI 实验",
 	site_url: "https://kotorin-firefly.kotorin-y.workers.dev",
 	description:
-		"kotorin 的运营与产品作品集，展示用户洞察、活动与内容运营、商业化增长、产品设计、AI 闭环工程和真实交付。",
+		"kotorin 的个人博客，记录 ACGN、互联网运营、产品设计、AI Agent 和一些真正做完的项目。",
 	keywords: [
 		"kotorin",
 		"游戏运营",

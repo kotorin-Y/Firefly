@@ -2,11 +2,11 @@ import type { AnnouncementConfig } from "../types/announcementConfig";
 
 export const announcementConfig: AnnouncementConfig = {
 	// 公告标题
-	title: "开放求职机会 ✨",
+	title: "最近在做什么？",
 
 	// 公告内容
 	content:
-		"目标方向：游戏运营、产品运营与产品经理，也期待内容平台、本地生活及其他互联网业务机会。作品均提供真实演示与交付物。",
+		"最近在整理产品设计、AI Agent 和游戏运营相关项目。能运行的程序、过程文档和踩过的坑，我都尽量留在博客里。",
 
 	// 是否允许用户关闭公告
 	closable: true,
@@ -15,7 +15,7 @@ export const announcementConfig: AnnouncementConfig = {
 		// 启用链接
 		enable: true,
 		// 链接文本
-		text: "查看个人作品集",
+		text: "看看产品设计作品",
 		// 链接 URL
 		url: "/posts/portfolio/",
 		// 内部链接

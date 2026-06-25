@@ -64,14 +64,14 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "把用户洞察，做成真实可用的产品。",
+			title: "こんにちは、kotorinです 👋",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"🎮 游戏与互联网运营 × 产品设计 × AI",
-				"从用户问题、活动策略到可验证交付",
-				"用闭环工程缩短想法到上线的距离",
+				"喜欢 ACGN，也喜欢琢磨产品为什么好用",
+				"正在学习做一个更靠谱的 AI Builder",
+				"这里放项目、过程，还有一些踩坑记录",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
