@@ -23,5 +23,8 @@ for (const file of ["src/content/resources/stellar-blade-community-operations-pl
 	const text = await fs.readFile(path.join(root, file), "utf8");
 	if (!text.includes(disclosure)) throw new Error(`${file} missing disclosure`);
 }
-await fs.writeFile(path.join(downloads, "manifest.json"), JSON.stringify({ generatedAt: new Date().toISOString(), assets }, null, 2));
+const manifestPath = path.join(downloads, "manifest.json");
+const manifest = `${JSON.stringify({ assets }, null, 2)}\n`;
+const current = await fs.readFile(manifestPath, "utf8").catch(() => "");
+if (current !== manifest) await fs.writeFile(manifestPath, manifest);
 console.log(`verified ${assets.length} portfolio assets`);
