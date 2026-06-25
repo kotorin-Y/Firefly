@@ -37,7 +37,7 @@ export const siteConfig: SiteConfig = {
 			value: "material-symbols:deployed-code-outline",
 			alt: "Kotorin",
 		},
-			title: "kotorin",
+		title: "kotorin",
 		widthFull: false,
 		menuAlign: "center",
 		followTheme: true,
