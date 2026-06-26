@@ -8,7 +8,15 @@ const required = [
 	"ops-deputy/ops-deputy-v1-x64.exe", "ops-deputy/ops-deputy-prd-zh-cn.pdf", "ops-deputy/ops-deputy-interaction-assets-v1.zip", "ops-deputy/ops-deputy-source-v1.zip",
 	"windows-motion-studio/windows-motion-studio-v1-x64.exe", "windows-motion-studio/windows-motion-studio-prd-zh-cn.pdf", "windows-motion-studio/windows-motion-studio-interaction-assets-v1.zip", "windows-motion-studio/windows-motion-studio-source-v1.zip",
 	"fancy/fancy-setup-v0.3.0-x64.exe", "fancy/fancy-portable-v0.3.0-x64.exe", "fancy/fancy-prd-zh-cn.pdf", "fancy/fancy-interaction-assets-v0.3.0.zip", "fancy/fancy-source-v0.3.0.zip",
-	"stellar-blade-blood-rain/stellar-blade-blood-rain-community-operations-plan-zh-cn.pdf", "stellar-blade-blood-rain/stellar-blade-blood-rain-interaction-assets-v1.zip", "stellar-blade-blood-rain/stellar-blade-blood-rain-source-v1.zip"
+	"stellar-blade-blood-rain/stellar-blade-blood-rain-community-operations-plan-zh-cn.pdf", "stellar-blade-blood-rain/stellar-blade-blood-rain-interaction-assets-v1.zip", "stellar-blade-blood-rain/stellar-blade-blood-rain-source-v1.zip",
+	"operation-strategy/xhs-acgn-community-activity-analysis-2026-06.pdf", "operation-strategy/xhs-product-ux-report-2026-06.pdf", "operation-strategy/xhs-campaign-long-term-operations-playbook-2026-06.pdf",
+	"game-growth/yihuan-operation-strategy-report-2026-06.pdf", "game-growth/yihuan-operation-strategy-report-source-2026-06.zip",
+	"game-growth/game-operation-incident-review-2023-2026.pdf", "game-growth/game-operation-incident-review-source-2023-2026.zip",
+	"game-growth/indie-game-commercialization-report-2026-06.pdf", "game-growth/indie-game-commercialization-report-source-2026-06.zip",
+	"misc-outputs/taptap-mainland-mobile-app-ux-report.zip", "misc-outputs/tps-game-prototype-source.zip",
+	"misc-outputs/wuthering-waves-multi-perspective-analysis.pdf", "misc-outputs/perfect-world-esports-app-product-design.zip",
+	"misc-outputs/rock-kingdom-world-rhythm-attribution-methodology.zip", "misc-outputs/skland-community-operation-campaign-proposal.pdf",
+	"misc-outputs/quanzhi-gaoshou-derivatives-plan.docx", "misc-outputs/quanzhi-gaoshou-derivatives-plan.pptx"
 ];
 const assets = [];
 for (const relative of required) {

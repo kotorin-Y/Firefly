@@ -73,5 +73,6 @@ Figma、Canva、Photoshop。能完成基础 UI 排版、活动素材适配、展
 ## 继续逛逛
 
 - [个人作品集-产品设计向](/posts/portfolio/)
+- [个人作品集-运营策略向](/posts/operation-strategy/)
 - [GitHub](https://github.com/kotorin-Y)
 - [给我发邮件](mailto:531188217@qq.com)

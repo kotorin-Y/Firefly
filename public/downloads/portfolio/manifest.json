@@ -79,6 +79,91 @@
       "href": "downloads/portfolio/stellar-blade-blood-rain/stellar-blade-blood-rain-source-v1.zip",
       "bytes": 1096990,
       "sha256": "056f84f3bd46337f7216c3f0e6354cfe92b2ff92eb23f4fa211e2b118aa9b1a6"
+    },
+    {
+      "href": "downloads/portfolio/operation-strategy/xhs-acgn-community-activity-analysis-2026-06.pdf",
+      "bytes": 510612,
+      "sha256": "e741a0c1e88cf76a732252621c1797f91261c133ab57f86969c167298dcc2605"
+    },
+    {
+      "href": "downloads/portfolio/operation-strategy/xhs-product-ux-report-2026-06.pdf",
+      "bytes": 562471,
+      "sha256": "9f921bdbfb84afbd9af9bb2a254877b62766e25ac45ce72ea2b5dd4003153067"
+    },
+    {
+      "href": "downloads/portfolio/operation-strategy/xhs-campaign-long-term-operations-playbook-2026-06.pdf",
+      "bytes": 769279,
+      "sha256": "cd3b83e32f4d8b4d6bdb771a06093f521926632640c9d31fce7463ada4c6b2c5"
+    },
+    {
+      "href": "downloads/portfolio/game-growth/yihuan-operation-strategy-report-2026-06.pdf",
+      "bytes": 7057419,
+      "sha256": "37ea0123f9b9830a461571a945e19cb41aa83a3dbc445e273e7ebe53ec2767a7"
+    },
+    {
+      "href": "downloads/portfolio/game-growth/yihuan-operation-strategy-report-source-2026-06.zip",
+      "bytes": 3133927,
+      "sha256": "dd372f494c2eaaff3843f7c5e1a530063eb75b0edc20cc72dae6b92fdf4c4c1d"
+    },
+    {
+      "href": "downloads/portfolio/game-growth/game-operation-incident-review-2023-2026.pdf",
+      "bytes": 649435,
+      "sha256": "c8251646031cdf59437d74739d0e7a58277af0a3cbf12a73fb12bfa161ef2dc1"
+    },
+    {
+      "href": "downloads/portfolio/game-growth/game-operation-incident-review-source-2023-2026.zip",
+      "bytes": 134540,
+      "sha256": "bc494e3f26b1bf584adec5a893cc34a71d5e0b09490bfbdbe3385163dcd2172e"
+    },
+    {
+      "href": "downloads/portfolio/game-growth/indie-game-commercialization-report-2026-06.pdf",
+      "bytes": 542848,
+      "sha256": "dffa6ac44744d49bb9b87afa57e2c9a52d8d5f0e9f91b935287b0342f2c72c79"
+    },
+    {
+      "href": "downloads/portfolio/game-growth/indie-game-commercialization-report-source-2026-06.zip",
+      "bytes": 137742,
+      "sha256": "e0a9fd60451ceb43f1bbcff4e1741f1a523991b2d7e0e57f6cd4a4d018b0fbc2"
+    },
+    {
+      "href": "downloads/portfolio/misc-outputs/taptap-mainland-mobile-app-ux-report.zip",
+      "bytes": 873337,
+      "sha256": "080ad23489cea33adaff285e7e4ea5d799d2e39a755025e5c69eab0c8d774e10"
+    },
+    {
+      "href": "downloads/portfolio/misc-outputs/tps-game-prototype-source.zip",
+      "bytes": 7644,
+      "sha256": "9e50ce91caf867b0b71d65dfa1d18b0a1344901912ee57a9efe821e966fc5391"
+    },
+    {
+      "href": "downloads/portfolio/misc-outputs/wuthering-waves-multi-perspective-analysis.pdf",
+      "bytes": 424255,
+      "sha256": "b19b0d289d6642207164b177132339342a46b383f65dca3a599d886baf06e02e"
+    },
+    {
+      "href": "downloads/portfolio/misc-outputs/perfect-world-esports-app-product-design.zip",
+      "bytes": 2229411,
+      "sha256": "ca5cede1a92100ac695391a50ee022a03057b93e21523cd0024d9d6a7981f94b"
+    },
+    {
+      "href": "downloads/portfolio/misc-outputs/rock-kingdom-world-rhythm-attribution-methodology.zip",
+      "bytes": 2518629,
+      "sha256": "ca4ad18d9735e0305218d5c18ebe13ef53f394248bf78e091d8008948b1cee55"
+    },
+    {
+      "href": "downloads/portfolio/misc-outputs/skland-community-operation-campaign-proposal.pdf",
+      "bytes": 326098,
+      "sha256": "30877a195f934eec48f750731bd420f3e2aae13f91903995d227b18e7e7be07a"
+    },
+    {
+      "href": "downloads/portfolio/misc-outputs/quanzhi-gaoshou-derivatives-plan.docx",
+      "bytes": 440949,
+      "sha256": "7088b5a9d05ff4a7314b60d670e863c63e1443e59381f19f22959f1e83b9eb12"
+    },
+    {
+      "href": "downloads/portfolio/misc-outputs/quanzhi-gaoshou-derivatives-plan.pptx",
+      "bytes": 506225,
+      "sha256": "e58b8142022dac2cb6b3f25d12424bb99f137acd6bc9fbef2f45688fb68ab0d5"
     }
   ]
 }
